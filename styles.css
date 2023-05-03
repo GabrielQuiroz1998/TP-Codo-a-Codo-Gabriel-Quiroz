@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    height: 100px;
+}
+.nav-link {
+    color: gray;
+    /*font-weight: bold;*/
+    font-size: 22px;
+}
+.nav-link:hover{
+    color: white;
+}
+#tickets-nav{
+    color: green;
+}
+#tickets-nav:hover{
+    color: white;
+}
+.presentacion{
+    margin: 0;
+    background-image: url("/TP Gabriel Quiroz/img/ba1.jpg");
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-bottom: 150px;
+    padding-top: 400px;
+}
+.texto-presentacion{
+    color: white;
+    font-weight: bold;
+    padding: 5%;
+    border: solid 3px transparent;
+    border-radius: 30px;    
+    background-color: rgba(5, 5, 5, 0.6);
+}
+#button-orador{
+    font-weight: bold;
+    padding: 5px;
+    background: none;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+}
+#button-orador:hover{
+    color: green;
+    border-color: green;
+    opacity: 0.8;
+}
+#button-tikects{
+    padding: 5px;
+    font-weight: bold;
+    background-color: green;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+}
+#button-tikects:hover{
+    opacity: 0.8;
+}
+.card{
+    margin:20px;
+}
+.titulo-oradores{
+    padding: 20px;
+}
+.co{
+    font-size: 15px;
+}
+.ora{
+    font-size: 35px;
+}
+.card-img-top:hover{
+    opacity: 0.8;
+}
+.ubicacion{
+    margin: 0;
+}
+.bs-as{
+    background-color: black/*rgb(44, 53, 73)*/;
+    padding: 20px;
+    color: white;
+}
+#button-conoce-mas{
+    background: none;
+    font-weight: normal;
+    font-size: 15px;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+}
+#button-conoce-mas:hover{
+    font-size: 17px;
+}
+footer{
+    color: white;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(21, 34, 63))
+}
+.text-footer:hover{
+    color: lightslategray;
+}
+.etiqueta{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: yellow;
+}
