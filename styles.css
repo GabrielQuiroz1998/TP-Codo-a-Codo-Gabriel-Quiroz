@@ -28,7 +28,7 @@ header{
 }
 .presentacion{
     margin: 0;
-    background-image: url("/TP Gabriel Quiroz/img/ba1.jpg");
+    background-image: url("./img/ba1.jpg");
     background-position-y: -100px;
     background-repeat: no-repeat;
     background-size: cover;
