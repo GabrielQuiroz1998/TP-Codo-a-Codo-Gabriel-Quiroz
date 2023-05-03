@@ -57,6 +57,10 @@ header{
     color: green;
     border-color: green;
     opacity: 0.8;
+    cursor:grab;
+}
+#button-orador:active{
+    cursor: grabbing;
 }
 #button-tikects{
     padding: 5px;
@@ -68,9 +72,19 @@ header{
 }
 #button-tikects:hover{
     opacity: 0.8;
+    cursor: grab;
+}
+#button-tikects:active{
+    cursor: grabbing;
 }
 .card{
     margin:20px;
+}
+.card-img-top:hover{
+    cursor: grab;
+}
+.card-img-top:active{
+    cursor: grabbing;
 }
 .titulo-oradores{
     padding: 20px;
@@ -102,6 +116,10 @@ header{
 }
 #button-conoce-mas:hover{
     font-size: 17px;
+    cursor: grab;
+}
+#button-conoce-mas:active{
+    cursor: grabbing;
 }
 footer{
     color: white;
