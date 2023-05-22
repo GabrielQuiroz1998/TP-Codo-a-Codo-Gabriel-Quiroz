@@ -130,7 +130,7 @@ footer{
     header{
         padding-right: 10%;
     }
-    .lista{
+    .lista-header{
         display: none;
     }
     .dropbtn {
@@ -172,39 +172,14 @@ footer{
         background-color: #3e8e41;
       }
 
-      .presentacion{
-        margin: 0;
-        background-image: url("./img/ba1.jpg");
-        background-position-y: 100px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 0;
-        padding-top: 100px;
-    }
-    .texto-presentacion{
-        color: white;
-        font-weight: bold;
-        border: 1px solid transparent;
-        border-radius: 1px;
-        padding: 10%;
-        margin:0;   
-        background-color: rgba(5, 5, 5, 0.6);
-        background-position-y: -200px;
-    }
     .tarjetas{
         flex-direction: column;
         align-items: center;
-    }
-    .ubicacion{
-        display: none;
     }
     .img-ubi{
         display: none;
     }
     .bs-as{
         width: 100%;
-    }
-    .co{
-        margin-top: 10px;
     }
 }
