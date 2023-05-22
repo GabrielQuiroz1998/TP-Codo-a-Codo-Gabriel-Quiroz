@@ -13,20 +13,24 @@
 </head>
 
 <body class="vh-100">
-    <header class="w-100 d-flex justify-content-between">
-        <img src="./img/codoacodo.png" alt="" class="logo justify-content-start ">
-        <ul class="lista nav justify-content-end align-items-center">
+    <header class="w-100 d-flex justify-content-around pb-3 pt-1">
+        <div class="log-texto d-inline-flex">
+            <img src="./img/codoacodo.png" alt="" class="logo m-0">
+            <p class="text-white align-self-center m-0 fs-3">Conf Bs As</p>
+        </div>
+        
+        <ul class="nav align-items-center m-0 fs-5 ">
             <li class="nav-item">
                 <a class="nav-link" href="#presentacion">La conferencia</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#seccion-oradores">Los oradores</a>
+            <li class="nav-item ">
+                <a class="nav-link " href="#seccion-oradores">Los oradores</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#lugar">El lugar y la fecha</a>
+                <a class="nav-link " href="#lugar">El lugar y la fecha</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#conviertete-en-orador">Conviertete en orador</a>
+                <a class="nav-link " href="#conviertete-en-orador">Conviertete en orador</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" id="tickets-nav">Comprar tickets</a>
@@ -44,88 +48,77 @@
           </div>
     </header>
     <main class="w-100">
-        <div class="presentacion" id="presentacion">
-            <div class="texto-presentacion">
-                <h3 class="fw-bold">Conf Bs As</h3>
-                <p>
+        <div class="imagen-presantacion w-100">
+            <div class="elementos-presentacion text-end">
+                <h3 class="fs-1 w-auto fw-bold">Conf Bs As</h3>
+            <div>
+                <p class="texto-presentacion fs-4">
                     Bs As llega por primera vez a Argentina. Un evento para compartir en nuestra comunidad el
                     conocimiento y la experiencia de los expertos que están creando el futuro de Internet. Ven a conocer
                     a miembros del evento, a otros estudiante de Codo a Codo y los oradores de primer nivel que tenemos
                     para ti. Te esperamos!
                 </p>
-                <button id="button-orador">
-                    Quiero ser orador
-                </button>
-                <button id="button-tikects">
-                    Comprar tickets
-                </button>
             </div>
-        </div>
-
+            
+            <button class="p-2 m-1 fs-5" id="button-orador">
+                Quiero ser orador
+            </button>
+            <button class="p-2 m-1 fs-5" id="button-tikects">
+                Comprar tickets
+            </button>
+            </div>
+            
+            
+        </div>   
 
         <div class="seccion-oradores m-0 p-0" id="seccion-oradores">
             <div class="titulo-oradores d-block text-center">
-                <h4 class="co">CONOCE A LOS</h4>
-                <h3 class="ora fw-bold">ORADORES</h3>
+                <h4 class="fs-6">CONOCE A LOS</h4>
+                <h3 class="fs-1 m-0">ORADORES</h3>
             </div>
 
-            <div class="tarjetas d-flex justify-content-center">
+            <div class="tarjetas d-flex justify-content-center w-100 p-0">
                
-                <div class="card" style="width:400px">
+                <div class="card mb-5" style="width:400px">
                     <img class="card-img-top" src="./img/steve.jpg" alt="Card image">
                     <div class="card-body">
-                        <div class="etiqueta d-inline-block p-1 fw-bold">JavaScript</div>
-                        <div class="etiqueta d-inline-block bg-info p-1 fw-bold">React</div>
+                        <div class="etiqueta d-inline-block bg-warning">JavaScript</div>
+                        <div class="etiqueta d-inline-block bg-info text-white">React</div>
                         <h4 class="card-title fw-bold">Steve Jobs</h4>
-                        <p class="card-text">Creador del primer ordenador personal y fundador de Apple Computer. Steve
-                            Paul Jobs (San Francisco, 1955 - Palo Alto, California, 2011) fue un destacado informático y
-                            empresario estadounidense. Fue creador del primer ordenador personal y fundador de Apple
-                            Computer, una empresa innovadora en el sector de la informática</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quia exercitationem minus. Voluptas laudantium, rerum nam asperiores ratione nulla? Ab eos temporibus, molestias commodi corporis minus odit adipisci sint tempore!</p>
                     </div>
                 </div>
                
-                <div class="card" style="width:400px">
+                <div class="card mb-5" style="width:400px">
                     <img class="card-img-top" src="./img/bill.jpg" alt="Card image">
                     <div class="card-body">
-                        <div class="etiqueta d-inline-block p-1 fw-bold">JavaScript</div>
-                        <div class="etiqueta d-inline-block bg-info p-1 fw-bold">React</div>
+                        <div class="etiqueta d-inline-block bg-warning">JavaScript</div>
+                        <div class="etiqueta d-inline-block bg-info text-white">React</div>
                         <h4 class="card-title fw-bold">Bill Gates</h4>
-                        <p class="card-text">William Henry Gates III (Seattle, Washington; 28 de octubre de 1955), más
-                            conocido como Bill Gates, es un magnate empresarial, desarrollador de software, inversor,
-                            autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de
-                            la infancia Paul Allen. </p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, praesentium. Hic iure cumque consequatur ratione officiis vitae accusamus illum rerum perferendis provident explicabo debitis iusto iste suscipit, voluptates dignissimos repudiandae!</p>
                     </div>
                 </div>
                
-                <div class="card" style="width:400px">
+                <div class="card mb-5" style="width:400px">
                     <img class="card-img-top" src="./img/ada.jpeg" alt="Card image">
                     <div class="card-body">
-                        <div class="etiqueta d-inline-block bg-light p-1 fw-bold">Negocios</div>
-                        <div class="etiqueta d-inline-block bg-danger p-1 fw-bold">Startups</div>
+                        <div class="etiqueta d-inline-block bg-secondary text-white ">Negocios</div>
+                        <div class="etiqueta d-inline-block bg-danger text-white">Startups</div>
                         <h4 class="card-title fw-bold">Ada Lovelace</h4>
-                        <p class="card-text">Augusta Ada King, condesa de Lovelace (Londres, 10 de diciembre de 1815 -
-                            íd., 27 de noviembre de 1852), registrada al nacer como Augusta Ada Byron y conocida
-                            habitualmente como Ada Lovelace, fue una matemática y escritora británica, célebre sobre
-                            todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la
-                            denominada máquina analítica.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorum non earum ipsam, minus repudiandae pariatur nobis, ea voluptate deserunt et ab at fugiat vitae expedita molestiae iste harum! Nam?</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="ubicacion d-inline-flex" id="lugar">
-            <img src="./img/ba3.jpg" class="img-ubi w-50" alt="">
+            <img src="./img/honolulu.jpg" class="img-ubi w-50" alt="">
             <div class="bs-as">
                 <h2>Bs As-Octubre</h2>
-                <p class="texto-ubicacion">Buenos Aires es la capital y ciudad más poblada de la República Argentina. Sus nombres oficiales son
-                    Ciudad de Buenos Aires o Ciudad Autónoma de Buenos Aires (CABA). También es llamada Capital
-                    Federal, por ser la sede del gobierno nacional. Es uno de los 24 distritos, o jurisdicciones de
-                    primer orden que conforman el país. Desde 1996 es una ciudad autónoma; tiene sus propios poderes
-                    ejecutivo, legislativo y judicial. Está situada en la región centro-este del país, sobre la orilla
-                    sur del Río de la Plata, en la región pampeana. La Ciudad de Buenos Aires fue cedida en 1880 por la
-                    Provincia de Buenos Aires para que fuera la capital federal del país; a partir de 2020 es
-                    considerada «capital principal», junto a 24 capitales alternas. En virtud de la reforma
-                    constitucional de 1994 goza de un régimen de autonomía.</p>
+                <p class="texto-ubicacion">Buenos Aires es la provincia y localidad mas grande de estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de estre las 
+                    principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al area urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu
+                    han formado una ciudad-condado consolidada que cubre toda la ciudad(Aproximadamente 600km² de superficie).
+                </p>
                     <button id="button-conoce-mas">
                         Conocé más
                     </button>
@@ -134,8 +127,8 @@
 
         <div class="conviertete-en-orador" id="conviertete-en-orador">
             <div class="titulo-conviertete-en-orador d-block text-center">
-                <h4 class="co">CONVIERTETE EN UN</h4>
-                <h3 class="ora fw-bold">ORADOR</h3>
+                <h4 class="fs-6 fw-bolder">CONVIERTETE EN UN</h4>
+                <h3 class="fs-1 fw-bold">ORADOR</h3>
             </div>
             <p class="text-center fs-5">Anotate como orador para dar una charla ignite. Cuentanos de que queres hablar!</p>
             <form class="w-50 m-auto">
@@ -151,13 +144,13 @@
                 <textarea class="form-control mt-3 fs-4" id="comment" cols="70" rows="5" name="text" placeholder="Sobre que quieres hablar"></textarea>
                 <label for="comment fs-5">Recuerda incluir un titulo para tu charla</label>
                 <div class="d-grid mt-3 mb-3">
-                    <button type="button" class="btn btn-success btn-block">Enviar</button>
+                    <button type="button" class="btn btn-success btn-block fw-bold fs-3">Enviar</button>
                   </div>
               </form>
         </div>
     </main>
     <footer class="d-flex justify-content-center">
-        <ul class="nav align-items-center w-75 justify-content-center p-4 fw-bold">
+        <ul class="nav align-items-center w-75 justify-content-center p-4 fw-bold fs-5">
             <li class="text-footer nav-item m-auto">Preguntas <br>frecuentes</li>
             <li class="text-footer nav-item m-auto">Contactanos</li>
             <li class="text-footer nav-item m-auto">Prensa</li>

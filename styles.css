@@ -2,23 +2,21 @@ body{
     margin: 0;
 }
 header{
-    margin: 0;
-    background-color: black;
-    padding-left: 5%;
+    background-color: rgb(50, 58, 60);
+    /*padding-left: 5%;
     padding-right: 5%;
     position: fixed;
-    z-index: 1;
+    z-index: 1;*/
 }
 .logo{
-    height: 100px;
+    height: 80px;
 }
+
 .dropdown{
     display: none;
 }
-.nav-link {
+.nav-link{
     color: gray;
-    /*font-weight: bold;*/
-    font-size: 22px;
 }
 .nav-link:hover{
     color: white;
@@ -29,28 +27,24 @@ header{
 #tickets-nav:hover{
     color: white;
 }
-.presentacion{
-    margin: 0;
+.imagen-presantacion{
     background-image: url("./img/ba1.jpg");
-    background-position-y: -100px;
+    background-position-y: 75%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 50%;
+}
+.elementos-presentacion{
+    color:white;
     padding-right: 10%;
+    padding-top: 250px;
     padding-bottom: 150px;
-    padding-top: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .texto-presentacion{
-    color: white;
-    font-weight: bold;
-    padding: 5%;
-    border: solid 3px transparent;
-    border-radius: 30px;    
-    background-color: rgba(5, 5, 5, 0.6);
+    margin-left: 50%;
 }
 #button-orador{
     font-weight: bold;
-    padding: 5px;
     background: none;
     border: solid 1px white;
     border-radius: 5px;
@@ -60,13 +54,12 @@ header{
     color: green;
     border-color: green;
     opacity: 0.8;
-    cursor:grab;
+    cursor:pointer;
 }
 #button-orador:active{
     cursor: grabbing;
 }
 #button-tikects{
-    padding: 5px;
     font-weight: bold;
     background-color: green;
     border: 1px solid transparent;
@@ -92,12 +85,6 @@ header{
 .titulo-oradores{
     padding: 20px;
 }
-.co{
-    font-size: 15px;
-}
-.ora{
-    font-size: 35px;
-}
 .card-img-top:hover{
     opacity: 0.8;
 }
@@ -105,7 +92,7 @@ header{
     margin: 0;
 }
 .bs-as{
-    background-color: black/*rgb(44, 53, 73)*/;
+    background-color: rgb(50, 58, 60);
     padding: 20px;
     color: white;
 }
@@ -119,22 +106,25 @@ header{
 }
 #button-conoce-mas:hover{
     font-size: 17px;
-    cursor: grab;
+    cursor: pointer;
 }
 #button-conoce-mas:active{
-    cursor: grabbing;
+    cursor: pointer;
 }
 footer{
     color: white;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(21, 34, 63))
+    background: linear-gradient(to right, rgb(17, 13, 54), rgb(36, 81, 129))
 }
 .text-footer:hover{
     color: lightslategray;
+    cursor: pointer;
 }
 .etiqueta{
     border: 1px solid transparent;
     border-radius: 5px;
-    background-color: yellow;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
 }
 @media (max-width: 719px){
     header{
