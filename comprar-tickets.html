@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos-comprar-tickets.css">
+    <link rel="icon" type="image/x-icon" href="./img/codoacodo.png">
+    <title>Comprar tickets</title>
+</head>
+<body class="vh-100 m-0">
+    <header class="d-flex justify-content-between w-100 m-0">
+        <div class="d-flex m-0"><p>Conf Bs As</p></div>
+        <div class="lista-header d-flex">
+            <li><a href="./index.html">La conferencia</a> </li>
+            <li>Los oradores</li>
+            <li>El lugar y la fecha</li>
+            <li>Conviertete en orador</li>
+            <li class="link-comprarTickets">Comprar tickets</li>
+        </div>
+    </header>
+
+    <main class="w-100 m-0 d-flex justify-content-center">
+        <section class="d-flex justify-content-between">
+            <div class="card border border-primary">
+                <h2>Estudiante</h2>
+                <h3>Tienen un descuento de</h3>
+                <span>80%</span>
+                <h4>*presentar documentacion</h4>
+            </div>
+            <div class="card border border-info">
+                <h2>Trainee</h2>
+                <h3>Tienen un descuento de</h3>
+                <span>50%</span>
+                <h4>*presentar documentacion</h4>
+            </div>
+            <div class="card border border-warning">
+                <h2>Junior</h2>
+                <h3>Tienen un descuento de</h3>
+                <span>15%</span>
+                <h4>*presentar documentacion</h4>
+            </div>
+        </section>
+
+        <div>
+            <h3>VENTA</h3>
+            <h1>VALOR DEL TICKET $200</h1>
+        </div>
+
+        <form>
+            <div class="row mt-4">
+                <div class="col">
+                  <input type="text" class="form-control fs-3" placeholder="Nombre" name="nombre">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control fs-3" placeholder="Apellido" name="apellido">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <input type="email" class="form-control fs-3" placeholder="Correo">
+                </div>
+            </div>
+            <div class="row mt-4 mb-5">
+                <div class="col">
+                    <label for="Cantidad" class="fs-5 mb-1">Cantidad</label>
+                    <input type="number" class="form-control fs-3" placeholder="Cantidad" name="Cantidad" id="Cantidad">
+                </div>
+                <div class="col">
+                    <label for="Categoria" class="form-label mb-1 fs-5">Categoria</label>
+                    <select class="form-select fs-3 " aria-label="Default select example" id="Categoria">
+                        <option selected>Seleccionar</option>
+                        <option value="1">Estudiante</option>
+                        <option value="2">Trainee</option>
+                        <option value="3">Junior</option>
+                      </select>
+                </div>
+            </div>
+        </form>
+
+        <div class="total-a-pagar d-flex justify-content-start p-3 mb-5">
+            <div>
+                <h4 class="fs-4 fw-normal m-0">Total a pagar: $</h4>
+            </div>
+            <div class="">
+                <h4 class="fs-4 fw-normal m-0 montoPagar"></h4>
+            </div>
+        </div>
+
+        <div class="botones d-flex justify-content-between mb-3">
+            <button class="p-1">Borrar</button>
+            <button class="p-1" id="resumen" name="resumen">Resumen</button>
+        </div>
+
+    </main>
+
+    <footer class="d-flex justify-content-center">
+        <ul class="nav align-items-center w-75 justify-content-center p-4 fw-bold fs-5">
+            <li class="text-footer nav-item m-auto">Preguntas <br>frecuentes</li>
+            <li class="text-footer nav-item m-auto">Contactanos</li>
+            <li class="text-footer nav-item m-auto">Prensa</li>
+            <li class="text-footer nav-item m-auto">Conferencias</li>
+            <li class="text-footer nav-item m-auto">Terminos y <br>condiciones</li>
+            <li class="text-footer nav-item m-auto">Privacidad</li>
+            <li class="text-footer nav-item m-auto">Estudiantes</li>
+          </ul>
+    </footer>
+
+
+    <script src="./js/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
