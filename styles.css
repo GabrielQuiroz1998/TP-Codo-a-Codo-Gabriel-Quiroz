@@ -9,7 +9,7 @@ header{
     z-index: 1;*/
 }
 .logo{
-    height: 80px;
+    height: 90px;
 }
 
 .dropdown{
@@ -17,6 +17,7 @@ header{
 }
 .nav-link{
     color: gray;
+    font-size: 25px;
 }
 .nav-link:hover{
     color: white;
@@ -29,7 +30,7 @@ header{
 }
 .imagen-presantacion{
     background-image: url("./img/ba1.jpg");
-    background-position-y: 75%;
+    background-position-y: 55%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -91,6 +92,9 @@ header{
 .ubicacion{
     margin: 0;
 }
+.texto-ubicacion{
+    font-size: 18px;
+}
 .bs-as{
     background-color: rgb(50, 58, 60);
     padding: 20px;
@@ -103,13 +107,19 @@ header{
     border: solid 1px white;
     border-radius: 5px;
     color: white;
+    font-size: 20px;
 }
 #button-conoce-mas:hover{
     font-size: 17px;
     cursor: pointer;
+    border-color: #4CAF50;
 }
 #button-conoce-mas:active{
     cursor: pointer;
+}
+.bto-enviar{
+    background-color: rgb(149, 192, 100);
+    color: white;
 }
 footer{
     color: white;
@@ -126,6 +136,10 @@ footer{
     padding: 3px;
     text-align: center;
 }
+.lista-footer{
+    width: 80%;
+}
+
 @media (max-width: 719px){
     header{
         padding-right: 10%;
